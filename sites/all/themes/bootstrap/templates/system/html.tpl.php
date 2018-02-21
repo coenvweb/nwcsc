@@ -66,6 +66,7 @@
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
+  <meta name="google-site-verification" content="mKJD6jFXx1_MKWlqrZxKOie85jE8Q3UmwqZEqrDRiBU" />
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">
