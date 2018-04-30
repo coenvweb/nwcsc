@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6, strong {
 
 /* FOR THE SITE BANNER */
 #page-header {
-  background: url('/sites/default/files/images/nwcsc_banner_thinnest.jpg') no-repeat;
+  background: #09508e;
   min-height: 50px;
   max-height: 98px /*170px*/;
   max-width: 1140px;
@@ -83,16 +83,55 @@ h1, h2, h3, h4, h5, h6, strong {
   /*  .navbar-nav > li { margin-left: -8px; }*/
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    #page-header{ height: 98px /*107px*/; width: 720px; }
     #navbar a{ padding-top: 6px; padding-bottom: 6px; font-size: 100% !important; }
 }
 @media (min-width: 992px) {
-    #page-header{ height: 81px /*140px*/; width: 940px; }
+    #page-header{ height: 98px /*140px*/; width: 940px; }
     .navbar-nav > li { margin-left: -8px; }
 }
 @media (min-width: 1200px) {
     #page-header{ height: 98px /*170px*/; width: 1140px; }
     .navbar-nav > li { margin-left: 0; }
 }
+
+#page-header h1.site-title {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 3rem;
+    text-shadow: 2px 2px #000000;
+}
+
+#page-header h1 span.line1 {
+    font-size: 5rem;
+    line-height: 3.5rem;
+    display: block;
+}
+
+#page-header h1 span.line2 {
+    font-size: 2.25rem;
+    display: block;
+}
+
+@media (min-width: 310px) {
+    #page-header h1 span.line1 { font-size: 4rem; line-height: 3rem; }
+    #page-header h1 { margin-left: 2rem; }
+}
+@media (min-width: 500px) {
+    #page-header h1 span.line1 { font-size: 3rem; line-height: 2.5rem; }
+    #page-header h1 { margin-left: 2rem; }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #page-header h1 span.line1 { font-size: 4rem; line-height: 3rem; }
+    #page-header h1 { margin-left: 3rem; }
+}
+
+@media (min-width: 1200px) {
+    #page-header h1 span.line1 { font-size: 5rem; line-height: 3.5rem; }
+    #page-header h1 { margin-left: 4rem; }
+
+}
+
 /* END SITE BANNER */
 
 /* FOR THE MAIN MENU NAVIGATION BAR */

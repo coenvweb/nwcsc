@@ -79,6 +79,10 @@
     <?php if (!empty($site_slogan)): ?>
       <p class="lead"><?php print $site_slogan; ?></p>
     <?php endif; ?>
+    <h1 class="site-title">
+        <span class="line1">NW CASC</span>
+        <span class="line2">Northwest Climate Adaptation Science Center</span>
+    </h1>
 
     <?php print render($page['header']); ?>
    </div>
